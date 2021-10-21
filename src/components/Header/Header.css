@@ -1,0 +1,16 @@
+.header-image {
+  width: 100%;
+}
+
+.header-title {
+  color: var(--white);
+  position: absolute;
+  top: 20%;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: var(--font-family-heading);
+}
+
+.img-container {
+  text-align: center;
+}
