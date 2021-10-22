@@ -1,0 +1,16 @@
+.testimonials-container {
+  padding-bottom: 4rem;
+}
+
+.testimonials-container-header {
+  padding-top: 5rem;
+}
+
+.testimonials-container-header {
+  color: var(--grayish-blue);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-family-heading);
+  font-size: 1.1rem;
+  letter-spacing: 0.2rem;
+}

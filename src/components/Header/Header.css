@@ -4,10 +4,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--yellow);
 }
 
 .header-image {
+  display: block;
   width: 100%;
   position: relative;
   top: 0;

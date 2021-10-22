@@ -1,0 +1,27 @@
+.footer {
+  color: var(--dark-desaturated-cyan-gd-text);
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background-color: var(--dark-moderate-cyan-footer);
+}
+
+.footer-header {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.links {
+  color: hsla(167, 40%, 24%, 0.623);
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: var(--font-family-paragraph);
+  margin-bottom: 4rem;
+}
+
+.social-links > img {
+  margin: 1rem;
+}

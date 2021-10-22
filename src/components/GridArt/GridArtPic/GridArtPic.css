@@ -1,0 +1,40 @@
+.grid-art-pic {
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.grid-art-pic-img {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.grid-art-pic-text {
+  position: absolute;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grid-art-pic-text-header {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: var(--font-family-heading);
+}
+
+.grid-art-pic-text-paragraph {
+  font-family: var(--font-family-paragraph);
+  line-height: 1.5rem;
+  word-spacing: 0.031rem;
+  max-width: 40ch;
+  margin-left: auto;
+  margin-right: auto;
+}

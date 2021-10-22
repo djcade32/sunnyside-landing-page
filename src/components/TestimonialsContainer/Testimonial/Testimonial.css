@@ -1,0 +1,41 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+}
+
+.testimonial-img {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  max-width: 20%;
+  border-radius: 50%;
+}
+
+.testimonial-paragraph {
+  color: var(--dark-grayish-blue);
+  font-family: var(--font-family-paragraph);
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+  word-spacing: 0.031rem;
+  max-width: 40ch;
+}
+
+.testimonial-name {
+  font-family: var(--font-family-heading);
+  margin-bottom: 1rem;
+}
+
+.testimonial-job {
+  color: var(--grayish-blue);
+  font-family: var(--font-family-paragraph);
+  font-size: 0.8rem;
+}
