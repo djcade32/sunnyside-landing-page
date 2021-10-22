@@ -1,0 +1,41 @@
+.grid-art-row-one {
+  text-align: center;
+}
+
+.grid-one-img {
+  width: 100%;
+}
+
+.grid-one-text {
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.grid-one-text-header {
+  color: var(--very-dark-desaturated-blue);
+  font-size: 2rem;
+  font-family: var(--font-family-heading);
+  line-height: 2.5rem;
+}
+
+.grid-one-text-paragraph {
+  color: var(--dark-grayish-blue);
+  font-family: var(--font-family-paragraph);
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+  word-spacing: 0.031rem;
+  margin-bottom: 1rem;
+}
+
+.grid-one-text-button {
+  font-size: 1rem;
+  font-family: var(--font-family-heading);
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  /* border-bottom: 2px solid var(--yellow); */
+  text-decoration: underline hsla(51, 100%, 49%, 0.603) 4px;
+  padding-bottom: 0;
+}

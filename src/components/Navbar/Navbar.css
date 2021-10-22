@@ -1,14 +1,23 @@
 .navbar-container {
-  color: black;
   display: flex;
   position: absolute;
   justify-content: space-between;
   padding: 1.5rem 1rem 1rem;
   width: 100%;
+  z-index: 1;
 }
 
 .website-logo {
   color: var(--white);
   font-size: 1.3rem;
   font-family: var(--font-family-paragraph);
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+.hamburger-menu-button-wrapper {
+  border: none;
+  background-color: transparent;
 }
