@@ -2,8 +2,10 @@ import "./GridArt.css";
 import GridArtRow from "./GridArtRow/GridArtRow";
 import GridArtPic from "./GridArtPic/GridArtPic";
 
-import gridOneImg from "../../images/mobile/image-transform.jpg";
-import gridTwoImg from "../../images/mobile/image-stand-out.jpg";
+import gridOneImgMobile from "../../images/mobile/image-transform.jpg";
+import gridOneImgDesktop from "../../images/desktop/image-transform.jpg";
+import gridTwoImgMobile from "../../images/mobile/image-stand-out.jpg";
+import gridTwoImgDesktop from "../../images/desktop/image-stand-out.jpg";
 import gridThreeImg from "../../images/mobile/image-graphic-design.jpg";
 import gridFourImg from "../../images/mobile/image-photography.jpg";
 
@@ -22,18 +24,22 @@ function GridArt() {
   return (
     <div className="grid-art">
       <GridArtRow
-        img={gridOneImg}
+        imgMobile={gridOneImgMobile}
+        imgDesktop={gridOneImgDesktop}
         imgAlt="Egg on yellow background."
         header="Transform your brand"
         paragraph={gridOneParagraph}
         underlineColor={gridOneUnderlineColor}
+        reverse={true}
       />
       <GridArtRow
-        img={gridTwoImg}
+        imgMobile={gridTwoImgMobile}
+        imgDesktop={gridTwoImgDesktop}
         imgAlt="Red cup."
         header="Stand out to the right audience"
         paragraph={gridTwoParagraph}
         underlineColor={gridTwoUnderlineColor}
+        reverse={false}
       />
       <div className="grid-art-row-three">
         <GridArtPic

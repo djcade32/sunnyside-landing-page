@@ -2,8 +2,13 @@
   text-align: center;
 }
 
-.grid-img {
+.grid-img-mobile {
   width: 100%;
+}
+
+.grid-img-desktop {
+  width: 100%;
+  display: none;
 }
 
 .grid-text {
@@ -39,4 +44,37 @@
   background-color: transparent;
   text-transform: uppercase;
   padding-bottom: 0;
+}
+
+@media (min-width: 55rem) {
+  .grid-art-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-img-mobile {
+    display: none;
+    width: 100%;
+  }
+
+  .grid-img-desktop {
+    width: 100%;
+    display: block;
+    order: 1;
+  }
+  .grid-text {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+    order: 2;
+  }
+
+  .grid-text-paragraph {
+    max-width: 70ch;
+  }
+
+  .grid-text-button {
+    text-align: left;
+    padding: 0;
+  }
 }
