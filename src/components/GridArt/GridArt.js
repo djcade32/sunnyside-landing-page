@@ -6,8 +6,10 @@ import gridOneImgMobile from "../../images/mobile/image-transform.jpg";
 import gridOneImgDesktop from "../../images/desktop/image-transform.jpg";
 import gridTwoImgMobile from "../../images/mobile/image-stand-out.jpg";
 import gridTwoImgDesktop from "../../images/desktop/image-stand-out.jpg";
-import gridThreeImg from "../../images/mobile/image-graphic-design.jpg";
-import gridFourImg from "../../images/mobile/image-photography.jpg";
+import gridThreeImgMobile from "../../images/mobile/image-graphic-design.jpg";
+import gridFourImgMobile from "../../images/mobile/image-photography.jpg";
+import gridThreeImgDesktop from "../../images/desktop/image-graphic-design.jpg";
+import gridFourImgDesktop from "../../images/desktop/image-photography.jpg";
 
 function GridArt() {
   const gridOneParagraph =
@@ -43,13 +45,15 @@ function GridArt() {
       />
       <div className="grid-art-row-three">
         <GridArtPic
-          img={gridThreeImg}
+          imgMobile={gridThreeImgMobile}
+          imgDesktop={gridThreeImgDesktop}
           header="Graphic Design"
           paragraph={gridThreeParagraph}
           fontText="var(--dark-desaturated-cyan-gd-text)"
         />
         <GridArtPic
-          img={gridFourImg}
+          imgMobile={gridFourImgMobile}
+          imgDesktop={gridFourImgDesktop}
           header="Photography"
           paragraph={gridFourParagraph}
           fontText="var(--dark-blue-photography-text)"

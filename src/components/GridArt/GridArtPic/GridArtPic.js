@@ -3,7 +3,8 @@ import "./GridArtPic.css";
 function GridArtPic(props) {
   return (
     <div className="grid-art-pic">
-      <img className="grid-art-pic-img" src={props.img} alt="" />
+      <img className="grid-art-pic-img-mobile" src={props.imgMobile} alt="" />
+      <img className="grid-art-pic-img-desktop" src={props.imgDesktop} alt="" />
       <div className="grid-art-pic-text">
         <h1
           style={{ color: `${props.fontText}` }}

@@ -1,1 +1,6 @@
-
+@media (min-width: 55rem) {
+  .grid-art-row-three {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

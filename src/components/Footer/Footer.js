@@ -1,10 +1,5 @@
 import "./Footer.css";
 
-import facebookIcon from "../../images/icon-facebook.svg";
-import instagramIcon from "../../images/icon-instagram.svg";
-import pinterestIcon from "../../images/icon-pinterest.svg";
-import twitterIcon from "../../images/icon-twitter.svg";
-
 function Footer() {
   return (
     <div className="footer">
@@ -15,10 +10,10 @@ function Footer() {
         <p className="link">Projects</p>
       </div>
       <div className="social-links">
-        <img src={facebookIcon} alt="" />
-        <img src={instagramIcon} alt="" />
-        <img src={pinterestIcon} alt="" />
-        <img src={twitterIcon} alt="" />
+        <i className="fab fa-facebook-square fa-2x"></i>
+        <i className="fab fa-instagram fa-2x"></i>
+        <i className="fab fa-pinterest fa-2x"></i>
+        <i className="fab fa-twitter fa-2x"></i>
       </div>
     </div>
   );

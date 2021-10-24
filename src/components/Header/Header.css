@@ -32,6 +32,7 @@
   transform: translate(-50%, -50%);
   font-family: var(--font-family-heading);
   z-index: 1;
+  letter-spacing: 0.625rem;
 }
 
 .arrow {

@@ -39,3 +39,10 @@
   font-family: var(--font-family-paragraph);
   font-size: 0.8rem;
 }
+
+@media (min-width: 55rem) {
+  .testimonial {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

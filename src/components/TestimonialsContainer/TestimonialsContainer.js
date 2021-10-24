@@ -24,24 +24,26 @@ function TestimonialsContainer() {
   return (
     <div className="testimonials-container">
       <h1 className="testimonials-container-header">Client Testimonials</h1>
-      <Testimonial
-        img={testimonialOnePic}
-        paragraph={testimonialOneParagraph}
-        name={testimonialOneName}
-        job={testimonialOneJob}
-      />
-      <Testimonial
-        img={testimonialTwoPic}
-        paragraph={testimonialTwoParagraph}
-        name={testimonialTwoName}
-        job={testimonialTwoJob}
-      />
-      <Testimonial
-        img={testimonialThreePic}
-        paragraph={testimonialThreeParagraph}
-        name={testimonialThreeName}
-        job={testimonialThreeJob}
-      />
+      <div className="all-testimonials">
+        <Testimonial
+          img={testimonialOnePic}
+          paragraph={testimonialOneParagraph}
+          name={testimonialOneName}
+          job={testimonialOneJob}
+        />
+        <Testimonial
+          img={testimonialTwoPic}
+          paragraph={testimonialTwoParagraph}
+          name={testimonialTwoName}
+          job={testimonialTwoJob}
+        />
+        <Testimonial
+          img={testimonialThreePic}
+          paragraph={testimonialThreeParagraph}
+          name={testimonialThreeName}
+          job={testimonialThreeJob}
+        />
+      </div>
     </div>
   );
 }

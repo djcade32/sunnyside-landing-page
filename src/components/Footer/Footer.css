@@ -22,6 +22,24 @@
   margin-bottom: 4rem;
 }
 
-.social-links > img {
+.link:hover {
+  cursor: pointer;
+  color: var(--white);
+}
+
+.social-links > i {
   margin: 1rem;
+}
+
+.social-links > i:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+
+@media (min-width: 55rem) {
+  .links {
+    width: 40ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
